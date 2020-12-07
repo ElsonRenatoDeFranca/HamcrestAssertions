@@ -5,7 +5,7 @@ This tutorial shows you how to use Hamcrest for unit testing.
 
 # How to download Hamcrest dependency
 
-From version SpringBoot 2.2.11 and above, Hamcrest dependencies can be downloaded as part of testContainers dependency. Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. 
+From version SpringBoot 2.2.11 onwards, Hamcrest dependencies can be downloaded as part of testContainers dependency. Testcontainers is a Java library that supports JUnit tests, providing lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container. 
 
     build.gradle
 
