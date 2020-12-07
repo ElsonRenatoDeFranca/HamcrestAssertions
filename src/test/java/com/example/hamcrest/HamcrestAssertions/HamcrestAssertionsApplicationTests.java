@@ -26,7 +26,7 @@ class HamcrestAssertionsApplicationTests {
 	}
 
 	@Test
-	public void shouldCheckIfAnItemIsPartOfACollection() {
+	public void shouldCheckCollectionContent_whenAnItemIsPartOfACollection() {
 		int[] values = new int[]{1, 2, 3};
 
 		List<Integer> list = Arrays.asList(ArrayUtils.toObject(values));
